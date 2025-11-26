@@ -44,18 +44,24 @@ style.innerHTML = `
   height: 50px;
   background: #000;
   border-radius: 25px;
-  transform: rotate(45deg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
+
 .Strich2 {
   position: absolute;
   width: 130px;
   height: 50px;
   background: #000;
   border-radius: 25px;
-  transform: rotate(-90deg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
+
 .bubble, .bubble1, .bubble2, .bubble3, .bubble4 {
   position: absolute;
   top: 0;
